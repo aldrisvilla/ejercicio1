@@ -1,0 +1,28 @@
+.container-login{
+    text-align: center;
+    align-items:center;
+
+   
+}
+
+.sub-container-login{
+    display:inline-block;
+    margin-top: 24vh;
+    background-color :#ccd6ff;
+    border-radius: 8px;
+    height: 70%;
+    width:70%;
+    align-items: center;
+    padding-bottom: 2em;
+
+}
+.sub-container-login input{
+    display: inline;
+    
+}
+
+.btn{
+margin-top: 14px;
+}  
+
+

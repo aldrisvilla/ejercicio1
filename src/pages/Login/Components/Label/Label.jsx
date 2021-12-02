@@ -1,10 +1,13 @@
-import React from 'react'
+import React from 'react';
+import "../Label/Label.css";
 
-const Label = () => {
+const Label = ({text}) => {
     return (
-        <div>
-            <label htmlFor="nombre">hola mundo soy una etiqueta </label>
+        <div className="container-label">
+            <label>{text}</label>
         </div>
+
+        
     )
 }
 

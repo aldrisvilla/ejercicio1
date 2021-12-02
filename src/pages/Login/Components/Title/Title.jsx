@@ -1,13 +1,12 @@
 import React from 'react';
+import "../Title/Title.css";
 
 
 const Title =({text,titulo}) => {
      
     return (
-        <div>
-            {text}
-            {titulo}
-
+        <div className="title-container">
+            <label> {text} </label>  
         </div>
     )
 }
