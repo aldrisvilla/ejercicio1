@@ -7,13 +7,14 @@
 
 .sub-container-login{
     display:inline-block;
-    margin-top: 24vh;
+    margin-top: 12vh;
     background-color :#ccd6ff;
     border-radius: 8px;
-    height: 70%;
-    width:70%;
+    box-shadow: 1px 2px  10px black;
+    height: 60%;
+    width:50%;
     align-items: center;
-    padding-bottom: 2em;
+    padding-bottom: 1em;
 
 }
 .sub-container-login input{
@@ -23,6 +24,7 @@
 
 .btn{
 margin-top: 14px;
-}  
+margin: 8px;
 
+}  
 
